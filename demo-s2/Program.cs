@@ -124,7 +124,7 @@ namespace demo_s2
             #region Object Copy and Reference Behavior
 
             // Create a second reference
-            Point P2 = new Points();
+            Points P2 = new Points();
 
             // Assign P2 to P1 (both now reference the same object in the heap)
             P2 = P1;
